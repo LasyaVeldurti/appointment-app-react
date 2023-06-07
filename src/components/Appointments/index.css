@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0, #9796f0);
+  height: 100vh;
+  padding: 30px;
+  overflow-y: auto;
+}
+.app-container {
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: roboto;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 12px;
+  outline: none;
+  border-style: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-img {
+  width: 55%;
+  align-self: flex-end;
+}
+@media (max-width: 767px) {
+  .home-img {
+    display: none;
+  }
+}
+.input-title {
+  padding: 10px;
+}
+.input-date {
+  padding: 10px;
+}
+.output-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-ul-cont {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.starred-btn {
+  border-radius: 10px;
+  width: 80px;
+  background-color: #ffffff;
+  color: #8b5cf6;
+  border: 1px solid;
+
+  height: 30px;
+  margin-top: 25px;
+}

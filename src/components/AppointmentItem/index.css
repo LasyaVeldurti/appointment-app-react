@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.fixed-appointment {
+  display: flex;
+  justify-content: space-between;
+}
+.li-container {
+  border: 1px solid #222222;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.title {
+  color: #171f46;
+  font-size: 20px;
+}
+.date {
+  color: #b5b7c4;
+}
+.star-btn {
+  background-color: #ffffff;
+  border-style: none;
+}
